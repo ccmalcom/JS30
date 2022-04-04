@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS + CSS Clock</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="node_modules/flipdown/dist/flipdown.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="head">
+        <h1>Snarky Puppy with Steely Dan</h1>
+        <div class="details">
+          <h3>June 19, 2022 7:30PM</h3>
+          <h3>Tinley Park, Chicago, IL</h3>
+        </div>
+      </div>
+      <div class="clock">
+        <div class="clock-face">
+          <div class="hand hour-hand"></div>
+          <div class="hand min-hand"></div>
+          <div class="hand second-hand"></div>
+        </div>
+      </div>
+      <div class="foot">
+        <h2 id="ticker"></h2>
+        <!-- <div id="flipdown" class="flipdown"></div> -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="node_modules/flipdown/dist/flipdown.js"></script>
+  </body>
+</html>
